@@ -1,0 +1,4 @@
+Bundle-Name: JQueryDataTable
+Bundle-SymbolicName: djh.learn.easyLiferay.jQuery
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.easyLiferay.jQuery.constants

@@ -1,0 +1,5 @@
+Bundle-Name: NPMReact
+Bundle-SymbolicName: djh.learn.react
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.react.constants
+Web-ContextPath: /NPMReact

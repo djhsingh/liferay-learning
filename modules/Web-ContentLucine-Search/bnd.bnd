@@ -1,0 +1,4 @@
+Bundle-Name: Web-ContentLucine-Search
+Bundle-SymbolicName: djh.learn.easyLiferay.lucine
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.easyLiferay.lucine.constants

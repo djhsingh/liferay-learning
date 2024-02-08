@@ -1,0 +1,4 @@
+Bundle-Name: person-web
+Bundle-SymbolicName: djh.learn.easyLiferay.web
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.easyLiferay.web.constants

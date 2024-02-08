@@ -1,0 +1,4 @@
+Bundle-Name: Spring-Boot
+Bundle-SymbolicName: djh.learn.easySpring
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.easySpring.constants

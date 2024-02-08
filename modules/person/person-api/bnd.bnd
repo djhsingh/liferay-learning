@@ -1,0 +1,10 @@
+Bundle-Name: person-api
+Bundle-SymbolicName: djh.learn.builder.easyLiferay.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	djh.learn.builder.easyLiferay.exception,\
+	djh.learn.builder.easyLiferay.model,\
+	djh.learn.builder.easyLiferay.service,\
+	djh.learn.builder.easyLiferay.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../person-service/service.xml

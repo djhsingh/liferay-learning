@@ -1,0 +1,10 @@
+Bundle-Name: employee-api
+Bundle-SymbolicName: djh.learn.easyLiferay.externalDB.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	djh.learn.easyLiferay.externalDB.exception,\
+	djh.learn.easyLiferay.externalDB.model,\
+	djh.learn.easyLiferay.externalDB.service,\
+	djh.learn.easyLiferay.externalDB.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-service/service.xml

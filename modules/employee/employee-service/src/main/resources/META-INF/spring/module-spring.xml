@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="djh.learn.easyLiferay.externalDB.service.impl.EmployeeLocalServiceImpl" id="djh.learn.easyLiferay.externalDB.service.EmployeeLocalService" />
+	<bean class="djh.learn.easyLiferay.externalDB.service.impl.EmployeeServiceImpl" id="djh.learn.easyLiferay.externalDB.service.EmployeeService" />
+	<bean class="djh.learn.easyLiferay.externalDB.service.persistence.impl.EmployeeModelArgumentsResolver" id="djh.learn.easyLiferay.externalDB.service.persistence.impl.EmployeeModelArgumentsResolver" />
+	<bean class="djh.learn.easyLiferay.externalDB.service.persistence.impl.EmployeePersistenceImpl" id="djh.learn.easyLiferay.externalDB.service.persistence.EmployeePersistence">
+		<property name="dataSource" ref="secondDatabase" />
+	</bean>
+</beans>

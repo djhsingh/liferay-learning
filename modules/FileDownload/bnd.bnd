@@ -1,0 +1,4 @@
+Bundle-Name: FileDownload
+Bundle-SymbolicName: djh.learn.fileUpload
+Bundle-Version: 1.0.0
+Export-Package: djh.learn.fileUpload.constants

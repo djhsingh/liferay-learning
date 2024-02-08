@@ -1,0 +1,19 @@
+{
+	"name": "easy-layout-layouttpl",
+	"version": "1.0.0",
+	"main": "package.json",
+	"keywords": ["liferay-theme"],
+	"liferayLayoutTemplate": {
+		"version": "7.4"
+	},
+	"devDependencies": {
+		"gulp": "4.0.2",
+		"liferay-theme-tasks": "^11.2.2"
+	},
+	"scripts": {
+		"init": "gulp init",
+		"build": "gulp build",
+		"deploy": "gulp deploy",
+		"init": "gulp init"
+	}
+}
